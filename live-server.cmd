@@ -1,0 +1,1 @@
+live-server C:\Users\sGARY\Documents\Programming\Apps\recipe-den\output\ --host=localhost
