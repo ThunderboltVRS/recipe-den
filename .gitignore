@@ -4,3 +4,4 @@ firebase.json
 .firebase/hosting.b3V0cHV0.cache
 output/google*.html
 output/js/recipe-display-1.0.0.js
+*.log

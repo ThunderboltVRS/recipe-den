@@ -14,7 +14,7 @@
             "prepTime": "PT20M",
                 "cookTime": "PT15M",
                     "totalTime": "PT35M",
-                        "recipeYield": "2 servings",
+                        "recipeYield": "2",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "Turkish",
                                     "keywords": "quick, simple",
