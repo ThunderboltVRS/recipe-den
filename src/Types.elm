@@ -53,6 +53,8 @@ type alias Author =
 type alias Instruction =
     { instructionType : String
     , text : String
+    , url : String
+    , image : String
     }
 
 type alias Nutrition =

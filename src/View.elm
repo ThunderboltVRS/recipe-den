@@ -9,7 +9,6 @@ import RemoteData exposing (..)
 import Types exposing (..)
 
 
-
 view : Model -> Html Msg
 view model =
     case model.recipe of
@@ -90,9 +89,18 @@ instructionsGuide recipe =
         ]
 
 
+instructionStepId : Instruction -> String
+instructionStepId instruction =
+    String.split "#" instruction.text
+        |> List.tail
+        |> Maybe.withDefault []
+        |> List.head
+        |> Maybe.withDefault ""
+
+
 instructionItem : Instruction -> Html Msg
 instructionItem instruction =
-    li [] [ text instruction.text ]
+    li [ id (instructionStepId instruction) ] [ text instruction.text ]
 
 
 detailsCard : Recipe -> Html Msg

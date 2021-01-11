@@ -6,11 +6,13 @@
     <title>Hand-picked home made recipes</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="Recipe Den">
-    <link rel="stylesheet" href="../css/bulma-0.75.css">
+    <link rel="stylesheet" href="../css/bulma-0.91.min.css">
     <link rel="stylesheet" href="../css/site.css">
-    <script src="/js/carousel.js" type="application/ld+json"></script>
+    <script src="/js/index.js"></script>
+    <script>
+        loadCarousel('/js/carousel.js');
+    </script>
 </head>
-
 <body>
     <section class="hero is-info">
         <div class="hero-body">
@@ -20,29 +22,31 @@
             </div>
         </div>
     </section>
-    <section class="hero is-info"></section>
-    <div class="container" style="padding-top: 1rem;">
-        <!-- Each Item -->
-        <div class="tile">
-            <a href="/pages/lamb-wraps.html">
-                <article class="media box">
-                    <figure class="media-left">
-                        <p class="image is-128x128">
-                            <img src="/img/lamb-wraps.jpg">
-                        </p>
-                    </figure>
-                    <div class="media-content">
-                        <div class="content">
-                            <div class="title">
-                                <a href="/pages/lamb-wraps.html">Lamb Wraps</a>
+    <div class="section main-section">
+        <div class="container">
+            <!-- Each Item -->
+            <div class="columns">
+                <div class="column is-one-third">
+                    <a href="/pages/lamb-wraps.html">
+                        <article class="media box">
+                            <figure class="media-left">
+                                <p class="image is-128x128">
+                                    <img src="/img/lamb-wraps.jpg">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="title">
+                                        <a href="/pages/lamb-wraps.html">Lamb Wraps</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                </article>
-            </a>
+                        </article>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-    </section>
 </body>
 
 </html>

@@ -14,7 +14,7 @@ decodeRecipe text =
 
         Err b ->
             let
-                _ = Debug.log "Testing: " b
+                _ = ""
             in
                 Nothing
             
@@ -49,6 +49,8 @@ decodeInstruction =
     Json.Decode.succeed Instruction
         |> required "@type" Json.Decode.string
         |> required "text" Json.Decode.string
+        |> required "url" Json.Decode.string
+        |> required "image" Json.Decode.string
 
 
 decodeAuthor : Json.Decode.Decoder Author

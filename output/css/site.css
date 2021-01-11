@@ -8,3 +8,13 @@ ul {
 .breadcrumb{
     font-size: x-large;
 }
+.title{
+    display: inline-flex;
+}
+body{
+    min-height: 100vh;
+}
+.main-section{
+    min-height: 100vh; 
+    background-color: lightgray;
+}
