@@ -51,6 +51,7 @@ decodeInstruction =
         |> required "text" Json.Decode.string
         |> required "url" Json.Decode.string
         |> required "image" Json.Decode.string
+        |> required "name" Json.Decode.string
 
 
 decodeAuthor : Json.Decode.Decoder Author

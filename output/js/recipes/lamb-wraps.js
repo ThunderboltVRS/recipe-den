@@ -41,43 +41,50 @@
                                                     "@type": "HowToStep",
                                                     "text": "Mix all the salad together.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step1",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"1"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Preheat the oven to 200 degrees C.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step2",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"2"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Cook the mince with the salt, pepper, cumin seeds, paprika and rosemary.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step3",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"3"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Add in the squashed garlic, simmer briefly.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step4",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"4"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Add in the tomato puree and lemon juice. Remove from heat.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step5",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"5"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Lay on the tortillas and pop in oven for 2 mins.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step6",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"6"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Add salad and feta cheese to serve.",
                                                     "url":"https://recipe-den.web.app/pages/lamb-wraps.html#step7",
-                                                    "image":"../img/lamb-wraps.jpg"
+                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "name":"7"
                                                 }
                                             ]
 }

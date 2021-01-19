@@ -55,6 +55,7 @@ type alias Instruction =
     , text : String
     , url : String
     , image : String
+    , name : String
     }
 
 type alias Nutrition =
