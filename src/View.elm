@@ -23,11 +23,15 @@ recipeDisplay : Recipe -> Html Msg
 recipeDisplay recipe =
     div []
         [ heroSection recipe
-        , div [ class "container" ]
-            [ breadCrumbs recipe
-            , detailsCard recipe
-            , ingredientsCard recipe
-            , instructionsGuide recipe
+        , div [ class "container is-fluid block" ] [ div [class "container"] [breadCrumbs recipe ]]
+        , div [ class "container block is-fluid main-section" ]
+            [ div [ class "container box" ]
+                [ div [ class "columns" ]
+                    [ div [ class "column" ] [ detailsCard recipe ]
+                    , div [ class "column" ] [ ingredientsCard recipe ]
+                    , div [ class "column" ] [ instructionsGuide recipe ]
+                    ]
+                ]
             ]
         ]
 
@@ -51,7 +55,7 @@ breadCrumbs recipe =
     nav [ class "breadcrumb" ]
         [ ul []
             [ li []
-                [ a [ href "#", onClick GoHome ]
+                [ a [ href "/" ]
                     [ text "Home" ]
                 ]
             , li []
@@ -64,12 +68,10 @@ breadCrumbs recipe =
 
 ingredientsCard : Recipe -> Html Msg
 ingredientsCard recipe =
-    div [ class "card" ]
-        [ div [ class "card-content" ]
-            [ p [ class "title" ]
-                [ text "Ingredients" ]
-            , ul [] (List.map (\i -> ingredientItem i) recipe.ingredients)
-            ]
+    div [ class "container" ]
+        [ p [ class "title" ]
+            [ text "Ingredients" ]
+        , ul [] (List.map (\i -> ingredientItem i) recipe.ingredients)
         ]
 
 
@@ -80,12 +82,10 @@ ingredientItem ingredient =
 
 instructionsGuide : Recipe -> Html Msg
 instructionsGuide recipe =
-    div [ class "card" ]
-        [ div [ class "card-content" ]
-            [ p [ class "title" ]
-                [ text "Steps" ]
-            , ol [] (List.map (\i -> instructionItem i) recipe.instructions)
-            ]
+    div [ class "container" ]
+        [ p [ class "title" ]
+            [ text "Steps" ]
+        , ol [] (List.map (\i -> instructionItem i) recipe.instructions)
         ]
 
 
@@ -103,35 +103,30 @@ instructionItem instruction =
     li [ id (instructionStepId instruction) ] [ text instruction.text ]
 
 
-detailsCard : Recipe -> Html Msg
-detailsCard recipe =
-    div [ class "card" ]
-        [ div [ class "columns" ]
-            [ div [ class "column" ]
-                [ div [ class "card-image" ]
-                    [ figure [ class "image is-5by4" ]
-                        [ img [ src (Maybe.withDefault "" (List.head recipe.image)), alt "Placeholder image" ]
-                            []
-                        ]
-                    ]
+summaryCard : Recipe -> Html Msg
+summaryCard recipe =
+    div [ class "container " ]
+        [ div [ class "container" ]
+            [ p []
+                [ strong [] [ text "Cook Time: " ]
+                , text recipe.cookTime
                 ]
-            , div [ class "card-content" ]
-                [ div [ class "media" ]
-                    [ div [ class "media-left" ]
-                        [ figure [ class "image is-2by1" ]
-                            [ img [ src "https://bulma.io/images/placeholders/96x96.png", alt "Placeholder image" ]
-                                []
-                            ]
-                        ]
-                    , div [ class "section" ]
-                        [ strong [] [ text "Cook Time: " ]
-                        , text recipe.cookTime
-                        ]
-                    , div [ class "section" ]
-                        [ strong [] [ text "Prep Time: " ]
-                        , text recipe.prepTime
-                        ]
-                    ]
+            , p []
+                [ strong [] [ text "Prep Time: " ]
+                , text recipe.prepTime
                 ]
             ]
+        ]
+
+
+detailsCard : Recipe -> Html Msg
+detailsCard recipe =
+    div [ class "container" ]
+        [ div [ class "card-image" ]
+            [ figure [ class "image is-5by4" ]
+                [ img [ src (Maybe.withDefault "" (List.head recipe.image)), alt "Placeholder image" ]
+                    []
+                ]
+            ]
+        , summaryCard recipe
         ]

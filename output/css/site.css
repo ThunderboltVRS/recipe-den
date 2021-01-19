@@ -1,9 +1,5 @@
 ol {
-    padding-left: 2rem;
-}
-
-ul {
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .breadcrumb{
     font-size: x-large;
@@ -16,5 +12,7 @@ body{
 }
 .main-section{
     min-height: 100vh; 
-    background-color: lightgray;
+}
+.box{
+    box-shadow: 0 0.5em 1em -0.125em rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.02);
 }
