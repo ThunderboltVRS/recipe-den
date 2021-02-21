@@ -3,7 +3,9 @@
         "@type": "Recipe",
             "name": "Mustard Burgers",
                 "image": [
-                    "https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg"
+                    "https://recipe-den.web.app/img/4x3/mustard-burgers.jpg",
+                    "https://recipe-den.web.app/img/1x1/mustard-burgers.jpg",
+                    "https://recipe-den.web.app/img/16x9/mustard-burgers.jpg"
                 ],
                     "author": {
         "@type": "Person",
@@ -17,7 +19,7 @@
                         "recipeYield": "2",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "American",
-                                    "keywords": "quick, simple",
+                                    "keywords": "quick, simple, mustard, burgers",
                                         "recipeIngredient": [
                                             "4 brioche buns",
                                             "500g lean beef mince",
@@ -33,56 +35,56 @@
                                                     "@type": "HowToStep",
                                                     "text": "Preheat the oven to 200 degrees C.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step1",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Preheat"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Slice the tomatoes.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step2",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Slice"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Mix the mince, mustard and IPA together with some salt and pepper.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step3",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Mix"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Divide the mixture into equal parts, then flatten into a thin burger shape.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step4",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Divide"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Cook the burgers in the frying pan with the olive oil. turning once golden brown.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step5",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Cook"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Toast the buns in the oven and butter.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step6",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Toast"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Add cheese to burgers and let melt for a moment.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step7",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Cheese"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Layer the buns, lettuce, tomato and then burger.",
                                                     "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step8",
-                                                    "image":"../img/lamb-wraps.jpg",
+                                                    "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Construct"
                                                 }
                                             ]

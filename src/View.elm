@@ -25,7 +25,7 @@ recipeDisplay recipe =
         [ heroSection recipe
         , div [ class "container is-fluid block" ] [ div [class "container"] [breadCrumbs recipe ]]
         , div [ class "container block is-fluid main-section" ]
-            [ div [ class "container box" ]
+            [ div [ class "container box mb-4" ]
                 [ div [ class "columns" ]
                     [ div [ class "column" ] [ detailsCard recipe ]
                     , div [ class "column" ] [ ingredientsCard recipe ]
@@ -103,17 +103,25 @@ instructionItem instruction =
     li [ id (instructionStepId instruction) ] [ text instruction.text ]
 
 
+
+friendlyDuration : String -> String
+friendlyDuration duration =
+    String.replace "PT" "" duration
+        |> String.replace "M" " minutes"
+
+
+
 summaryCard : Recipe -> Html Msg
 summaryCard recipe =
     div [ class "container " ]
         [ div [ class "container" ]
             [ p []
                 [ strong [] [ text "Cook Time: " ]
-                , text recipe.cookTime
+                , text (friendlyDuration recipe.cookTime)
                 ]
             , p []
                 [ strong [] [ text "Prep Time: " ]
-                , text recipe.prepTime
+                , text (friendlyDuration recipe.prepTime)
                 ]
             ]
         ]

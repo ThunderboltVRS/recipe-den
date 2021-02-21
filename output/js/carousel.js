@@ -13,6 +13,12 @@
                     "position": 2,
                     "name": "Mustard Burgers",
                     "url": "https://recipe-den.web.app/recipes/mustard-burgers"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Sausage Pasta",
+                    "url": "https://recipe-den.web.app/recipes/sausage-pasta"
                 }
             ]
 }
