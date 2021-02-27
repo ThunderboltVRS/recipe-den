@@ -88,3 +88,8 @@ type alias Review =
     , reviewBody : String
     , publisher : String
     }
+
+-- type alias RecipeProgress
+--     {
+
+--     }

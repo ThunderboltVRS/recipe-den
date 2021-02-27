@@ -23,7 +23,7 @@ recipeDisplay : Recipe -> Html Msg
 recipeDisplay recipe =
     div []
         [ heroSection recipe
-        , div [ class "container is-fluid block" ] [ div [class "container"] [breadCrumbs recipe ]]
+        , div [ class "container is-fluid block" ] [ div [ class "container" ] [ breadCrumbs recipe ] ]
         , div [ class "container block is-fluid main-section" ]
             [ div [ class "container box mb-4" ]
                 [ div [ class "columns" ]
@@ -71,13 +71,18 @@ ingredientsCard recipe =
     div [ class "container" ]
         [ p [ class "title" ]
             [ text "Ingredients" ]
-        , ul [] (List.map (\i -> ingredientItem i) recipe.ingredients)
+        , div [ class "form" ] [ ul [] (List.map (\i -> ingredientItem i) recipe.ingredients) ]
         ]
 
 
 ingredientItem : String -> Html Msg
 ingredientItem ingredient =
-    li [] [ text ingredient ]
+    li [ class "control" ]
+        [ label [ class "checkbox" ]
+            [ input [ Html.Attributes.type_ "checkbox" ] []
+            , text ingredient
+            ]
+        ]
 
 
 instructionsGuide : Recipe -> Html Msg
@@ -109,7 +114,6 @@ friendlyDuration duration =
     String.replace "PT" "" duration
         |> String.replace "M" " minutes"
         |> String.replace "H" " hours"
-
 
 
 summaryCard : Recipe -> Html Msg

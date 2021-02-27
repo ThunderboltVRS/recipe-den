@@ -7,6 +7,7 @@ import Update exposing (update)
 import View exposing (view)
 
 
+main : Program Flags Model Msg
 main =
     Browser.element
         { init = init

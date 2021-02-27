@@ -29,7 +29,7 @@
                                             "1 tin chopped tomatoes",
                                             "1 tbsp tomato puree",
                                             "1 tsp thyme",
-                                            "a tsp rosemary",
+                                            "1 tsp rosemary",
                                             "1 beef stock cube"
                                         ],
                                             "recipeInstructions": [

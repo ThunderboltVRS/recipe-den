@@ -1,8 +1,5 @@
 module Update exposing (update)
 
-import Date
-import DatePicker
-import RemoteData exposing (WebData)
 import Types exposing (..)
 import Ports exposing (..)
 

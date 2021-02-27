@@ -16,4 +16,8 @@
     <loc>https://recipe-den.web.app/recipes/lamb-wraps</loc>
     <changefreq>daily</changefreq>
   </url>
+    <url>
+    <loc>https://recipe-den.web.app/recipes/sausage-casserole</loc>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>

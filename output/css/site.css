@@ -21,3 +21,6 @@ body{
 .title, strong, a{
     color: white;
 }
+.control input{
+    margin-right: 0.7rem;
+}
