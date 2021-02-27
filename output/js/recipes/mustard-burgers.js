@@ -34,56 +34,56 @@
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Preheat the oven to 200 degrees C.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step1",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step1",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Preheat"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Slice the tomatoes.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step2",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step2",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Slice"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Mix the mince, mustard and IPA together with some salt and pepper.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step3",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step3",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Mix"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Divide the mixture into equal parts, then flatten into a thin burger shape.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step4",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step4",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Divide"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Cook the burgers in the frying pan with the olive oil. turning once golden brown.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step5",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step5",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Cook"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Toast the buns in the oven and butter.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step6",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step6",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Toast"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Add cheese to burgers and let melt for a moment.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step7",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step7",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Cheese"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Layer the buns, lettuce, tomato and then burger.",
-                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers.html#step8",
+                                                    "url":"https://recipe-den.web.app/recipes/mustard-burgers#step8",
                                                     "image":"https://recipe-den.web.app/img/mustard-burgers/mustard-burgers.jpg",
                                                     "name":"Construct"
                                                 }

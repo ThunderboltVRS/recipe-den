@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Recipe Den - Sausage Casserole</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="../js/initialise.js"></script>
+        <script src="../js/recipe-display-1.0.0.min.js"></script>
+        <link rel="stylesheet" href="../css/bulma-0.91.min.css">
+        <link rel="stylesheet" href="../css/site.css">
+    </head>
+    <body>
+        <div id="elmContainer" style="height: 400px;">
+            <script>
+                loadRecipe('/js/recipes/' + location.href.split("/").slice(-1)[0].split(".")[0] + ".js");
+            </script>
+        </div>
+    </body>
+</html>

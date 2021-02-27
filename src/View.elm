@@ -108,6 +108,7 @@ friendlyDuration : String -> String
 friendlyDuration duration =
     String.replace "PT" "" duration
         |> String.replace "M" " minutes"
+        |> String.replace "H" " hours"
 
 
 

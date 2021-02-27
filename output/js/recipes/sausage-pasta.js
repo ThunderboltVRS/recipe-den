@@ -34,49 +34,49 @@
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Cook sausages in oven",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step1",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step1",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"Oven"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Peel and finely slice the onions, add to bowl.",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step2",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step2",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"2"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Slice the peppers and add to bowl along with rosemary, garlic, some salt and pepper.",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step3",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step3",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"3"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Place this in the frying pan, stir often softening the onions.",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step4",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step4",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"4"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Cook the pasta",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step5",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step5",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"5"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Add balsamic vinegar and the passata to the pan.",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step6",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step6",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"6"
                                                 },
                                                 {
                                                     "@type": "HowToStep",
                                                     "text": "Once ready mix the pasta, sausages and sauce to serve.",
-                                                    "url":"https://recipe-den.web.app/recipes/lamb-wraps.html#step7",
+                                                    "url":"https://recipe-den.web.app/recipes/sausage-pasta#step7",
                                                     "image":"https://recipe-den.web.app/img/sausage-pasta/sausage-pasta.jpg",
                                                     "name":"7"
                                                 }
