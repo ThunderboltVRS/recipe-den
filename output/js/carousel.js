@@ -16,9 +16,15 @@
                 },
                 {
                     "@type": "ListItem",
-                    "position": 2,
+                    "position": 3,
                     "name": "Sausage Pasta",
                     "url": "https://recipe-den.web.app/recipes/sausage-pasta"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Sausage Casserole",
+                    "url": "https://recipe-den.web.app/recipes/sausage-casserole"
                 }
             ]
 }
