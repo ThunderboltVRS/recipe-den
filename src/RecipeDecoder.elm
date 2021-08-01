@@ -1,7 +1,7 @@
 module RecipeDecoder exposing (decodeRecipe)
 
 import Json.Decode
-import Json.Decode.Pipeline exposing (required, optional)
+import Json.Decode.Pipeline exposing (required, optional, hardcoded)
 import Json.Encode
 import Types exposing (..)
 
@@ -38,7 +38,7 @@ recipeDecoder =
         |> required "recipeCuisine" Json.Decode.string
         |> required "keywords" Json.Decode.string
         |> optional "nutrition" (Json.Decode.map Just decodeNutrition) Nothing
-        |> required "recipeIngredient" (Json.Decode.list Json.Decode.string)
+        |> required "recipeIngredient" (Json.Decode.list decodeIngredient)
         |> required "recipeInstructions" (Json.Decode.list decodeInstruction)
         |> optional "aggregateRating" (Json.Decode.map Just decodeAggregateRating) Nothing
         |> optional "review" (Json.Decode.map Just decodeReview) Nothing
@@ -100,3 +100,15 @@ decodeReview =
         |> required "datePublished" Json.Decode.string
         |> required "reviewBody" Json.Decode.string
         |> required "publisher" Json.Decode.string
+
+decodeIngredient : Json.Decode.Decoder Ingredient
+decodeIngredient =
+    Json.Decode.string
+    |> Json.Decode.andThen decodeIngredient2
+
+
+decodeIngredient2 : String -> Json.Decode.Decoder Ingredient
+decodeIngredient2 name =
+  Json.Decode.succeed Ingredient 
+    |> hardcoded name 
+    |> hardcoded Pending

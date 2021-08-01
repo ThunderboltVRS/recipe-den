@@ -1,9 +1,8 @@
 module States exposing (init, subscriptions)
 
-import RemoteData
-import Task
-import Types exposing (..)
 import RecipeDecoder
+import Types exposing (..)
+
 
 init : Flags -> ( Model, Cmd Msg )
 init flags =

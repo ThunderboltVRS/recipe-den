@@ -28,7 +28,7 @@ function loadRecipe(path) {
     var app = Elm.Main.init({
       node: document.getElementById('elmContainer'), 
       flags: {
-        recipeUrl: "Test",
+        recipeUrl: path,
         stringifiedRecipe: JSON.stringify(recipe)
       }
     });

@@ -1,4 +1,4 @@
-module Types exposing (..)
+module Types exposing (AggregateRating, Author, Flags, Ingredient, IngredientState(..), Instruction, Model, Msg(..), Nutrition, Recipe, Review, ReviewAuthor, ReviewReviewRating)
 
 import Http
 import RemoteData exposing (WebData)
@@ -8,6 +8,7 @@ import Time
 type Msg
     = None
     | GoHome
+    | IngredientChecked Ingredient
 
 
 type alias Model =
@@ -15,12 +16,22 @@ type alias Model =
     , recipe : Maybe Recipe
     }
 
-type alias Flags = 
-    {
-        recipeUrl : String,
-        stringifiedRecipe : String
+
+type alias Flags =
+    { recipeUrl : String
+    , stringifiedRecipe : String
     }
 
+
+type IngredientState
+    = Pending
+    | Ready
+
+
+type alias Ingredient =
+    { name : String
+    , state : IngredientState
+    }
 
 
 type alias Recipe =
@@ -39,16 +50,18 @@ type alias Recipe =
     , recipeCuisine : String
     , keywords : String
     , nutrition : Maybe Nutrition
-    , ingredients : List String
+    , ingredients : List Ingredient
     , instructions : List Instruction
     , aggregateRating : Maybe AggregateRating
     , review : Maybe Review
     }
 
+
 type alias Author =
     { authorType : String
     , name : String
     }
+
 
 type alias Instruction =
     { instructionType : String
@@ -58,10 +71,12 @@ type alias Instruction =
     , name : String
     }
 
+
 type alias Nutrition =
     { nutritionType : String
     , calories : String
     }
+
 
 type alias AggregateRating =
     { aggregateType : String
@@ -69,16 +84,19 @@ type alias AggregateRating =
     , ratingCount : String
     }
 
+
 type alias ReviewReviewRating =
     { reviewType : String
     , ratingValue : String
     , bestRating : String
     }
 
+
 type alias ReviewAuthor =
     { reviewAuthorType : String
     , name : String
     }
+
 
 type alias Review =
     { reviewType : String
@@ -89,7 +107,8 @@ type alias Review =
     , publisher : String
     }
 
+
+
 -- type alias RecipeProgress
 --     {
-
 --     }

@@ -24,3 +24,6 @@ body{
 .control input{
     margin-right: 0.7rem;
 }
+.switch[type=checkbox]:checked+label::before, .switch[type=checkbox]:checked+label:before{
+    background: darkblue;
+}

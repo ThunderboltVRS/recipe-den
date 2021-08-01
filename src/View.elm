@@ -75,13 +75,19 @@ ingredientsCard recipe =
         ]
 
 
-ingredientItem : String -> Html Msg
+ingredientItem : Ingredient -> Html Msg
 ingredientItem ingredient =
-    li [ class "control" ]
-        [ label [ class "checkbox" ]
-            [ input [ Html.Attributes.type_ "checkbox" ] []
-            , text ingredient
+    div [ class "field" ]
+        [ input
+            [ id ingredient.name
+            , type_ "checkbox"
+            , name "switchRoundedDefault"
+            , class "switch is-rounded"
+            , checked (ingredient.state == Ready)
             ]
+            []
+        , label [ for "switchRoundedDefault", onClick (IngredientChecked ingredient) ]
+            [ text ingredient.name ]
         ]
 
 
@@ -106,7 +112,6 @@ instructionStepId instruction =
 instructionItem : Instruction -> Html Msg
 instructionItem instruction =
     li [ id (instructionStepId instruction) ] [ text instruction.text ]
-
 
 
 friendlyDuration : String -> String
