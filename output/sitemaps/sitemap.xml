@@ -20,4 +20,9 @@
     <loc>https://recipe-den.web.app/recipes/sausage-casserole</loc>
     <changefreq>daily</changefreq>
   </url>
+  </url>
+    <url>
+    <loc>https://recipe-den.web.app/recipes/spaghetti-bolognese</loc>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>
