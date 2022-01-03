@@ -12,6 +12,10 @@ Designed to allow writing of personal recipes in Recipe scehma Json-LD format (r
 
 Website design needs improving, but as proof of concept is good enough for now. Waiting to see if Google index the content.
 
+# Deployment
+
+Happens automatically using GitHub actions.
+
 
 # Running Locally
 
