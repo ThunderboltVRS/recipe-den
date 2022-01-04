@@ -19,7 +19,7 @@
                         "recipeYield": "2",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "American",
-                                    "keywords": "quick, simple, mustard, burgers",
+                                    "keywords": "mustard burgers",
                                         "recipeIngredient": [
                                             "4 brioche buns",
                                             "500g lean beef mince",

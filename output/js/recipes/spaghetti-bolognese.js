@@ -19,7 +19,7 @@
                         "recipeYield": "3",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "Italian",
-                                    "keywords": "quick, simple, spaghetti, bolognese",
+                                    "keywords": "spaghetti bacon bolognese",
                                         "recipeIngredient": [
                                             "6 rashers streaky smoked bacon",
                                             "2 onions",

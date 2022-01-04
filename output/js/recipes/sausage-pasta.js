@@ -19,7 +19,7 @@
                         "recipeYield": "3",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "Italian",
-                                    "keywords": "quick, simple, sausage, pasta",
+                                    "keywords": "sausage pasta",
                                         "recipeIngredient": [
                                             "4 sausages",
                                             "2 onions",

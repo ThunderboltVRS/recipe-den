@@ -19,7 +19,7 @@
                         "recipeYield": "4",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "British",
-                                    "keywords": "slow cooker, sausage, casserole",
+                                    "keywords": "sausage casserole",
                                         "recipeIngredient": [
                                             "12 chipolatas",
                                             "2 onions",

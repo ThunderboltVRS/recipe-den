@@ -19,7 +19,7 @@
                         "recipeYield": "2",
                             "recipeCategory": "Dinner",
                                 "recipeCuisine": "Turkish",
-                                    "keywords": "quick, simple, lamb, wraps",
+                                    "keywords": "lamb wraps",
                                         "recipeIngredient": [
                                             "4 large torillas",
                                             "500g lean lamb mince",
