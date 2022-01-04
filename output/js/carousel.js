@@ -25,6 +25,12 @@
                     "position": 4,
                     "name": "Sausage Casserole",
                     "url": "https://recipe-den.web.app/recipes/sausage-casserole"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "Spaghetti Bolognese",
+                    "url": "https://recipe-den.web.app/recipes/spaghetti-bolognese"
                 }
             ]
 }
