@@ -48,4 +48,12 @@
 			daily
 		</changefreq>
 	</url>
+	<url>
+		<loc>
+			https://recipe-den.web.app/recipes/beef-stew
+		</loc>
+		<changefreq>
+			daily
+		</changefreq>
+	</url>
 </urlset>

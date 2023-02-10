@@ -28,14 +28,14 @@
                                             "4 tsp rosemary",
                                             "4 cloves garlic",
                                             "4 tbsp tomato puree",
-                                            "2 lemons",
+                                            "1 lemon",
                                             "3 salad tomatoes",
                                             "1/4 cucumber",
                                             "1/2 a lettuce",
                                             "1 tsp corriander",
                                             "1 tsp dill",
                                             "1 tbsp olive oil",
-                                            "1 tbsp red wine vinegar",
+                                            "1/1 tbsp red wine vinegar",
                                             "20g feta cheese"
                                         ],
                                             "recipeInstructions": [
