@@ -35,7 +35,7 @@
                                             "1 tsp corriander",
                                             "1 tsp dill",
                                             "1 tbsp olive oil",
-                                            "1/1 tbsp red wine vinegar",
+                                            "1/2 tbsp red wine vinegar",
                                             "20g feta cheese"
                                         ],
                                             "recipeInstructions": [
